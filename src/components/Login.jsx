@@ -5,7 +5,7 @@ import styled from 'styled-components'
 export default function Login() {
     const handleClick = () => {
         const clientId = '3ad24626401241c29f88fe86541a3adb'
-        const redirectUrl = 'http://localhost:3000/'
+        const redirectUrl = 'https://kielan-music-player.onrender.com/'
         const apiUrl = 'https://accounts.spotify.com/authorize'
         const scope = ['user-read-email', 
                         'user-read-private', 
